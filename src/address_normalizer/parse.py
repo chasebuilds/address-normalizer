@@ -15,7 +15,7 @@ from address_normalizer.tables import (
 )
 
 _ZIP_RE = re.compile(r"^(\d{3,5})(?:-(\d{4}))?$")
-_ZIP9_RE = re.compile(r"^\d{8,9}$")
+_ZIP9_RE = re.compile(r"^\d{7,9}$")
 _NUMBER_RE = re.compile(r"^\d+[A-Z]?$|^\d+-\d+$")
 _GLUED_UNIT_RE = re.compile(r"^(APT|UNIT|STE|RM|LOT|BLDG|SPC)(\d+[A-Z]?)$")
 _PO_BOX_HEADS = (("POST", "OFFICE", "BOX"), ("P", "O", "BOX"), ("PO", "BOX"), ("POBOX",), ("POB",))

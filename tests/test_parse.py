@@ -68,6 +68,7 @@ def test_unit_on_its_own_comma_segment() -> None:
         ("1 Elm St, Ovid, MA 21340012", "02134", "0012"),
         ("1 Elm St, Ovid, MA 02134 0012", "02134", "0012"),
         ("1 Elm St, Ovid, NY 501", "00501", ""),
+        ("1 Elm St, Ovid, MA 4194483", "00419", "4483"),
     ],
 )
 def test_zip_formats(raw: str, zip5: str, zip4: str) -> None:

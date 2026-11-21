@@ -1,0 +1,47 @@
+id,place,expect,address,true_number,true_predir,true_street_name,true_suffix,true_postdir,true_unit_type,true_unit_id,true_po_box,true_city,true_state,true_zip5,true_zip4
+1,2,ok,"Pob 8388, Oststead, New Jersey 06909 1272",,,,,,,,8388,OSTSTEAD,NJ,06909,1272
+2,9,ok,6866 48th court wexworth  nm 82142,6866,,48TH,CT,,,,,WEXWORTH,NM,82142,
+3,10,ok,"5341 velmont way apt 791b, bramley, nd 55334",5341,,VELMONT,WAY,,APT,791B,,BRAMLEY,ND,55334,
+4,4,ok,"Pob 8759, Ashwyn, Delaware  18445",,,,,,,,8759,ASHWYN,DE,18445,
+5,5,ok,"3421 Brinford Av East, Brinwick, California 93407",3421,,BRINFORD,AVE,E,,,,BRINWICK,CA,93407,
+6,24,ok,"7422 Tavworth Rd Apt. 351, Pelldale, Ok 73311",7422,,TAVWORTH,RD,,APT,351,,PELLDALE,OK,73311,
+7,19,ok,"PO Box 7904, Marmont Falls, Utah 83566",,,,,,,,7904,MARMONT FALLS,UT,83566,
+8,20,ok,4402 Kesley Circle Pellstead Pennsylvania 18335,4402,,KESLEY,CIR,,,,,PELLSTEAD,PA,18335,
+9,5,ok,"  3421 brinford ave.  east, brinwick, california 93407",3421,,BRINFORD,AVE,E,,,,BRINWICK,CA,93407,
+10,23,ok,"  811 brinstead terr, yarstead, georgia  37736",811,,BRINSTEAD,TER,,,,,YARSTEAD,GA,37736,
+11,23,ok,"811 brinstead terr, yarstead, georgia 37736",811,,BRINSTEAD,TER,,,,,YARSTEAD,GA,37736,
+12,24,ok,"7422 Tavworth Rd # 351, Pelldale, Oklahoma 73311",7422,,TAVWORTH,RD,,APT,351,,PELLDALE,OK,73311,
+13,17,ok,"8405 WEXSTEAD WAY, BRAMMORE, COLORADO 80510-5910",8405,,WEXSTEAD,WAY,,,,,BRAMMORE,CO,80510,5910
+14,21,ok,"6819 Ostwick Crt, New Keswick, Wa 94748",6819,,OSTWICK,CT,,,,,NEW KESWICK,WA,94748,
+15,19,ok,"P O BOX 7904, MARMONT FALLS, UT 83566",,,,,,,,7904,MARMONT FALLS,UT,83566,
+16,,review,see attached,,,,,,,,,,,,
+17,22,ok,po box 4354 Ostton WEST VIRGINIA 26116,,,,,,,,4354,OSTTON,WV,26116,
+18,11,ok,"2531 Pellstead Ln,  Fenham, New Jersey 2667",2531,,PELLSTEAD,LN,,,,,FENHAM,NJ,02667,
+19,18,ok,"8769 S. Veldale Trail Suite 775, Tavsley, Mo 61257",8769,S,VELDALE,TRL,,STE,775,,TAVSLEY,MO,61257,
+20,10,ok,"5341 VELMONT WAY APARTMENT 791B, BRAMLEY, NORTH DAKOTA 55334",5341,,VELMONT,WAY,,APT,791B,,BRAMLEY,ND,55334,
+21,2,ok,"  Post Office  Box 8388, Oststead, New Jersey 06909 1272",,,,,,,,8388,OSTSTEAD,NJ,06909,1272
+22,12,ok,7515 22Nd Way Lormont Falls Colorado 84351,7515,,22ND,WAY,,,,,LORMONT FALLS,CO,84351,
+23,1,ok,"2962 W Yarley Circ Ste 545, Ashcote Minnesota 549112946",2962,W,YARLEY,CIR,,STE,545,,ASHCOTE,MN,54911,2946
+24,3,ok,8089 northeast lorham  boul new quindale delaware 17053,8089,NE,LORHAM,BLVD,,,,,NEW QUINDALE,DE,17053,
+25,21,ok,"6819 Ostwick Court, New Keswick, Washington 94748",6819,,OSTWICK,CT,,,,,NEW KESWICK,WA,94748,
+26,7,ok,"458 KESBURY PLACE, PELLLEY, ILLINOIS 61673 3223",458,,KESBURY,PL,,,,,PELLLEY,IL,61673,3223
+27,8,ok,"5448 se.  harley pkwy, lake ashcote sd 52394",5448,SE,HARLEY,PKWY,,,,,LAKE ASHCOTE,SD,52394,
+28,14,ok,"7303 pellwick ln north, kessley, in 47324-7081",7303,,PELLWICK,LN,N,,,,KESSLEY,IN,47324,7081
+29,6,ok,"2646 Wexbury Road, Norley Utah 84278",2646,,WEXBURY,RD,,,,,NORLEY,UT,84278,
+30,19,ok,"POST OFFICE BOX 7904, MARMONT FALLS, UTAH 83566",,,,,,,,7904,MARMONT FALLS,UT,83566,
+31,0,ok,"2472 53rd Way, Kesford co 87104",2472,,53RD,WAY,,,,,KESFORD,CO,87104,
+32,17,ok,"8405 Wexstead Way, Brammore, CO 80510 5910",8405,,WEXSTEAD,WAY,,,,,BRAMMORE,CO,80510,5910
+33,16,ok,po box 9615  lake bramholt massachusetts 03814 8671,,,,,,,,9615,LAKE BRAMHOLT,MA,03814,8671
+34,20,ok,4402 Kesley Circle Pellstead Pa 18335,4402,,KESLEY,CIR,,,,,PELLSTEAD,PA,18335,
+35,0,ok,"2472 53rd Way, Kesford co 87104",2472,,53RD,WAY,,,,,KESFORD,CO,87104,
+36,3,ok,"8089 NE. Lorham Boulevard, New  Quindale, DE 17053",8089,NE,LORHAM,BLVD,,,,,NEW QUINDALE,DE,17053,
+37,0,ok,2472 53RD WAY KESFORD CO 87104,2472,,53RD,WAY,,,,,KESFORD,CO,87104,
+38,10,ok,"5341 velmont way #791b, bramley north dakota 55334",5341,,VELMONT,WAY,,APT,791B,,BRAMLEY,ND,55334,
+39,14,ok,"7303 Pellwick Ln N, Kessley, In 47324-7081",7303,,PELLWICK,LN,N,,,,KESSLEY,IN,47324,7081
+40,14,ok,"7303 Pellwick Lane N, Kessley Indiana 47324 7081",7303,,PELLWICK,LN,N,,,,KESSLEY,IN,47324,7081
+41,13,ok,8435 Delldale Str Apt 276 Marley Pa 13643-1994,8435,,DELLDALE,ST,,APT,276,,MARLEY,PA,13643,1994
+42,13,ok,"8435 DELLDALE ST. # 276, MARLEY PA 13643 1994",8435,,DELLDALE,ST,,APT,276,,MARLEY,PA,13643,1994
+43,7,ok,458 Kesbury Place Pellley Illinois 61673 3223,458,,KESBURY,PL,,,,,PELLLEY,IL,61673,3223
+44,8,ok,"  5448 southeast harley parkway,  lake ashcote, sd 52394",5448,SE,HARLEY,PKWY,,,,,LAKE ASHCOTE,SD,52394,
+45,2,ok,"POB 8388, Oststead, NJ 6909 1272",,,,,,,,8388,OSTSTEAD,NJ,06909,1272
+46,6,ok,  2646 wexbury road norley  ut 84278,2646,,WEXBURY,RD,,,,,NORLEY,UT,84278,
