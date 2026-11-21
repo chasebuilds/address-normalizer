@@ -4,6 +4,8 @@
 
 Cleans messy US mailing addresses in a CSV or Excel file. Each address is written the way USPS Publication 28 writes it (`Street` to `ST`, `Illinois` to `IL`, `Apartment` to `APT`, ZIP with its leading zero back), split into fields, and checked. Rows it cannot parse go to a review sheet with the reason. Rows that are the same address written differently are grouped. Everything runs offline: no geocoding, no API keys.
 
+![Messy typed addresses on the left and standardized addresses on the right](docs/preview.png)
+
 ## Measured result
 
 Messy copies of invented addresses with known answers were run through the tool and scored. The table below is written by the benchmark script from a real run, not typed by hand. Method, misses and limits: [BENCHMARK.md](BENCHMARK.md).
