@@ -9,6 +9,16 @@ Cleans messy US mailing addresses in a CSV or Excel file. Each address is writte
 Messy copies of invented addresses with known answers were run through the tool and scored. The table below is written by the benchmark script from a real run, not typed by hand. Method, misses and limits: [BENCHMARK.md](BENCHMARK.md).
 
 <!-- benchmark:start -->
+| Measure | Result |
+|---|---:|
+| Rows (messy copies of 5,000 fake addresses, plus broken rows) | 8,632 |
+| Cleaned rows with every field right | **99.5%** (8,294 of 8,332) |
+| Parseable rows with every field right (review counts as wrong) | **98.7%** |
+| Duplicate pairs found (recall) | **97.8%** (4,421 of 4,520) |
+| Duplicate pairs that were right (precision) | **100.0%** (4,421 of 4,421) |
+| All rows sent to review | 3.5% (300) |
+| Parseable rows sent to review | 0.8% (68) |
+| Broken rows sent to review | 100.0% (232 of 232) |
 <!-- benchmark:end -->
 
 The parseable rows sent to review have no commas and a city with a street-suffix word in it (`Lake Bramley`), so the street could end in two places. The tool flags those instead of guessing. Most wrong fields come from a spelled-out direction after the street (`Rd North`) in a row with no commas, which is read as part of the city. [LIMITATIONS.md](LIMITATIONS.md) covers both.

@@ -5,7 +5,7 @@ No number on this page was typed by hand.
 
 Command: `python -m benchmark.run_benchmark --seed 20261121 --places 5000`
 Python 3.11.15 on Windows.
-Parsing all 8,632 rows took 0.15 s.
+Parsing all 8,632 rows took 0.12 s.
 
 ## Method
 

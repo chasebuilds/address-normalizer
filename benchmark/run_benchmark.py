@@ -163,9 +163,9 @@ def main() -> None:
     (ROOT / "BENCHMARK.md").write_text(render(s, args.seed), encoding="utf-8")
     readme = ROOT / "README.md"
     text = readme.read_text(encoding="utf-8")
-    text = re.sub(r"(<!-- benchmark:start -->\n).*?(\n<!-- benchmark:end -->)",
-                  lambda m: m.group(1) + summary_table(s) + m.group(2), text, flags=re.S)
-    readme.write_text(text, encoding="utf-8")
+    text = re.sub(r"(<!-- benchmark:start -->\r?\n).*?(<!-- benchmark:end -->)",
+                  lambda m: m.group(1) + summary_table(s) + "\n" + m.group(2), text, flags=re.S)
+    readme.write_bytes(text.replace("\r\n", "\n").encode("utf-8"))
     print(summary_table(s))
     print(field_table(s))
     print(s.reasons.most_common())
