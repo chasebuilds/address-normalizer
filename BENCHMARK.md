@@ -4,7 +4,8 @@ Written by `benchmark/run_benchmark.py` on 2026-11-21 from a real run.
 No number on this page was typed by hand.
 
 Command: `python -m benchmark.run_benchmark --seed 20261121 --places 5000`
-Python 3.11.15 on Windows. Parsing all 8,632 rows took 0.16 s.
+Python 3.11.15 on Windows.
+Parsing all 8,632 rows took 0.15 s.
 
 ## Method
 
