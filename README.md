@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/chasebuilds/address-normalizer/actions/workflows/ci.yml/badge.svg)](https://github.com/chasebuilds/address-normalizer/actions/workflows/ci.yml) ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue) [![MIT license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
+**[Live demo: try it in your browser](https://chasebuilds.github.io/address-normalizer/)**. Drop in your own file or run the bundled sample with one click. The real package runs in the page with Pyodide, so files never leave your browser.
+
+[![The live demo after running the sample: the tool's summary, result tabs and output table](docs/demo.png)](https://chasebuilds.github.io/address-normalizer/)
+
 Cleans messy US mailing addresses in a CSV or Excel file. Each address is written the way USPS Publication 28 writes it (`Street` to `ST`, `Illinois` to `IL`, `Apartment` to `APT`, ZIP with its leading zero back), split into fields, and checked. Rows it cannot parse go to a review sheet with the reason. Rows that are the same address written differently are grouped. Everything runs offline: no geocoding, no API keys.
 
 ![Messy typed addresses on the left and standardized addresses on the right](docs/preview.png)
