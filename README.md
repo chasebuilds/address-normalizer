@@ -128,3 +128,11 @@ The sample file was made with `python -m benchmark.generate --seed 7 --places 25
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## More from Chase Builds
+
+- **[spreadsheet-diff](https://github.com/chasebuilds/spreadsheet-diff)**: Compare two versions of a spreadsheet, cell by cell. ([live demo](https://chasebuilds.github.io/spreadsheet-diff/))
+- **[csv-combine-split](https://github.com/chasebuilds/csv-combine-split)**: Combine a folder of files with aligned columns, or split a big file. ([live demo](https://chasebuilds.github.io/csv-combine-split/))
+- **[pdf-table-extractor](https://github.com/chasebuilds/pdf-table-extractor)**: 38,528 of 38,968 cells exact, 240 of 240 tables found. ([live demo](https://chasebuilds.github.io/pdf-table-extractor/))
+
+[All projects, sorted by industry](https://github.com/chasebuilds) · [chasebuilds.github.io](https://chasebuilds.github.io)
