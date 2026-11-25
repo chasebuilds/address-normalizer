@@ -1,0 +1,7 @@
+{
+  "title": "Address Normalizer: Clean and standardize US mailing addresses | Chase Builds",
+  "description": "Standardize messy US mailing addresses in CSV and Excel files to USPS style, split them into fields, flag what cannot be parsed and find duplicates.",
+  "url": "https://chasebuilds.github.io/address-normalizer/",
+  "image": "docs/demo.png",
+  "repo": "address-normalizer"
+}
